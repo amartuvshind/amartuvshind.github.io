@@ -28,7 +28,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-face { display: inline-block; background: url(images/face.png) no-repeat; height: 32px; width: 32px; }
 
 .jumbotron {
-	background: no-repeat 100% 100% fixed; /* url(images/background.jpg) center right fixed */  
+	background: no-repeat center right fixed; /* url(images/background.jpg)  */  
 	background-image: url(images/highway_animation.gif); 
 	
 	-webkit-background-size: 100% auto; 
@@ -45,10 +45,10 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/highway_animation.gif', sizingMethod='scale')";
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/highway_animation.gif', sizingMethod='scale');
 	
-	margin-bottom: 0px;
+	margin-bottom: 1px;
 	padding: 0px;
 }  
-.jumbotron .overlay { background-color: #22A39F; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.6; filter:alpha(opacity=60); z-index: 2; }
+.jumbotron .overlay { background-color: #22A39F; position: absolute; top: 0px; bottom: 1px; left: 0px; right: 0px; opacity: 0.6; filter:alpha(opacity=60); z-index: 2; }
 
 .jumbotron .container { position: relative; top: 28%; z-index: 4; }
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
