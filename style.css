@@ -28,13 +28,13 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-face { display: inline-block; background: url(images/face.png) no-repeat; height: 32px; width: 32px; }
 
 .jumbotron {
-	/*background: no-repeat center right fixed; */ /* url(images/background.jpg) */
+	background: no-repeat center right fixed; /* url(images/background.jpg) */
 	background-image: url(images/highway_animation.gif); 
 	
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
-    background-size: 100%; 
+    background-size: cover;
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
